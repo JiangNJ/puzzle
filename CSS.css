@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body{
+  width: 0;
+  height: 0;
+}
+.bigbox{
+  position: relative;
+  width: 620px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.settime{
+  position: absolute;
+  right: 1px;
+  font-weight: bold; 
+  font-size: 30px;
+}
+#game{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+  display:inline-block;
+  background-color: #9D9D9D;
+  box-shadow: 1px 1px 1px black;
+}
+#game>div{
+  position: absolute;
+  height: 149px;
+  width: 149px;
+  box-shadow: 1px 1px 1px #BEBEBE;
+  border-radius: 10px;
+  background-color: #2894FF;
+  text-align: center;
+  font-size: 150px;
+  line-height: 150px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#game>div:hover{
+  color: white;
+}
+#settime{
+  float: right;
+}
+#start{
+  position: absolute;
+  font-size: 40px;
+  background-color: rgba(0,0,0,0);
+  text-shadow: 1px 1px 1px black;
+}
+#again{
+  position: absolute;
+  font-size: 40px;
+  background-color: rgba(0,0,0,0);
+  text-shadow: 1px 1px 1px black;
+}
+#timer{
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  left: 1px;
+}
+#start:hover{
+  color: red;
+  cursor: pointer;
+}
+#again:hover{
+  color: red;
+  cursor: pointer;
+}
+#start{
+  left: 10px;
+  top: 100px;
+}
+#again{
+  left: 10px;
+  top: 200px;
+}
+#d1{
+  left: 0px;
+}
+#d2{
+  left: 150px;
+}
+#d3{
+  left: 300px;
+}
+#d4{
+  top: 150px;
+  left: 0px;
+}
+#d5{
+  top: 150px;
+  left: 150px
+}
+#d6{
+  top: 150px;
+  left: 300px;
+}
+#d7{
+  top: 300px;
+  left: 0px;
+}
+#d8{
+  top: 300px;
+  left: 150px
+}
